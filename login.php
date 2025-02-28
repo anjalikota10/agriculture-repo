@@ -1,5 +1,5 @@
 <?php
-$conn=mysqli_connect("root","vertex","vertex123","agriculture");
+$conn=mysqli_connect("mysql","vertex","vertex123","agriculture");
 
 session_start();
 if(isset($_POST['login'])){
