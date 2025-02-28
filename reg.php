@@ -1,5 +1,5 @@
 <?php
-$conn=mysqli_connect("localhost","root","","agriculture");
+$conn=mysqli_connect("hostname","vertex","vertex123","agriculture");
 if(isset($_POST['reg'])){
 
     $name=$_POST['name'];
